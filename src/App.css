@@ -1,0 +1,63 @@
+.read-the-docs {
+  color: #888;
+}
+
+body{
+  background-color:rgba(127,255,212,0.6);
+}
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+   border-radius: 10px;
+  margin:15px 230px;
+  border : 2px gray solid;
+  background-color:rgba(135,206,250,0.5);
+}
+.container{
+  width:80%;
+  height:600px;
+  margin: auto;
+  color:rgb(63, 62, 62);
+  padding: 10px;
+  background-color: rgba(0,0,255,0.1);
+  text-align: center;
+}
+.highlight{
+  border: 2px dashed brown;
+  border-radius:10px;
+  padding: 10px;
+}
+.normal{
+  padding: 10px;
+}
+.users{
+  width:50%;
+  margin: auto;
+  height:75%;
+  overflow-y:auto;
+  border-radius: 10px;
+  border : 2px gray solid;
+  background-color:rgba(135,206,250,0.5);
+}
+.liststyle{
+  list-style-type: none;
+}
+.listitem{
+  text-align: center;  
+  padding:15px 0px 8px 0px;
+  height: 35px;
+  width:90%;
+  margin: 10px 0px 2px 0px;
+  border-radius: 10px;
+  border : 1px yellow solid;
+ }
+ .selected{ 
+  width:50%;
+  height:25em;
+  margin:auto;
+  overflow-y: auto;
+  border-radius: 10px;
+  border : 2px gray solid;
+  background-color:rgba(135,206,250,0.5);
+}
